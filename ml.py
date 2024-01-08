@@ -5,7 +5,7 @@ from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.vgg16 import preprocess_input
 import numpy as np
 
-model_path = "/Users/nimatashi/Desktop/ML/streamlit code/my_model.h5"
+model_path = "my_model.h5"
 model = load_model(model_path)
 model.save("our_model.h5")
 
